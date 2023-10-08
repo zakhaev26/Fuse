@@ -66,6 +66,7 @@ Here're some of the project's best features:
 - The node server analyses environment details to uniquely write a Dockerfile to create the env and copy the source code to create a user-environment image and then a container.
 - The room is a multicontainer app with first, the user-environment and second, a app-service container which also spins parallely.
 - The app-service is responsible for forwarding writes from the clients to the user-environment and emit changes made inside the environment to the clients. It also handles the signalling of webRTC to create a peer connection.
+![image](https://github.com/zakhaev26/Fuse/assets/119437069/34e13827-0ff3-4bf8-a8db-01c138630373)
 
 # Contributors : 
 - <a href="https://github.com/tensor110/">Maheswar Mahapatra</a>: Frontend Development,UI/UX
